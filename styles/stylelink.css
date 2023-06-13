@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    background: rgba(255, 255, 255, 1);
+    width: 1440px;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 76px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-bottom: 1px solid #EFF5FB;
+}
+
+.header__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+
+
+}
+
+.header__btn {
+    max-width: 230px;
+
+    background: #E3F5F5;
+    border: none;
+    color: #03B2A5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    padding: 20px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.header__item a {
+    text-decoration: none;
+    color: #333333;
+font-weight: 500;
+    line-height: 15.96px;
+    letter-spacing: .25px;
+}
+
+.header__materials {
+    display: flex;
+    gap: 8px;
+}
+
+.header__materials img {
+    height: 14px;
+    width: 14px;
+    margin-top: auto;
+}
+
+.main {
+    margin-left: 120px;
+}
+
+.main__nav {
+    display: flex;
+
+    height: 18px;
+    justify-content: flex-start;
+    align-items: center;
+letter-spacing: 0.25px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.main__nav a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.main__nav p {
+    margin: 0;
+    color: rgba(51, 51, 51, 0.7);
+    padding-left: 8px;
+}
+
+.main__nav img {
+    padding-left: 4px;
+}
+
+.main__nav::after {
+    content: "Как не утонуть в тревоге и управлять своими страхами";
+    padding-left: 8px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.main__division {
+    display: flex;
+    flex-direction: row;
+}
+
+.section__head_begin {
+    max-width: 690px;
+    display: flex;
+    flex-direction: column;
+    }
+
+  .section__head_begin img {
+width: 690px;
+height: 331px;
+  }
+
+.section__head_begin h1 {
+    padding-top: 54px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #333333;
+}
+
+.section__head_begin p {
+    padding: 16px 0 24px 0;
+    color: #494949;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+/* Содержание */
+
+.section__head_maintenance {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 24px;
+}
+
+.section__head_item {
+    list-style: disc;
+    color: #03B2A5;
+}
+
+.section__head_item span {
+    color: #494949;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.section__head_maintenance li {
+    padding-left: 15px;
+}
+
+.section__head_maintenance p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
